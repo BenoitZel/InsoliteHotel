@@ -1,0 +1,24 @@
+@import "./settings";
+
+@import "./pages/home";
+@import "./pages/list";
+@import "./pages/hotel";
+@import "./pages/login";
+@import "./pages/register";
+@import "./pages/adminHome";
+@import "./pages/adminList";
+@import "./pages/adminNewUser";
+@import "./pages/adminNewHotel";
+@import "./pages/adminNewRoom";
+@import "./pages/adminEditHotel";
+
+@import "./components/navBar";
+@import "./components/header";
+@import "./components/featured";
+@import "./components/propertyList";
+@import "./components/featuredProperties";
+@import "./components/footer";
+@import "./components/searchItem";
+@import "./components/reserve";
+@import "./components/adminDatatable";
+@import "./components/adminSidebar";

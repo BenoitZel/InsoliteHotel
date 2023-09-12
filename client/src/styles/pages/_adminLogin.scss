@@ -1,0 +1,38 @@
+.login {
+    background: url('https://monparisjoli.com/wp-content/uploads/2018/03/Une-bis-Dormir-dans-une-cabane-dans-les-arbres.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .lContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+        .lInput{
+          height: 30px;
+          padding: 10px;
+        }
+
+        .lButton {
+          border: none;
+          padding: 10px 20px;
+          background-color: $color-3;
+          color: $color-1;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+        span{
+            color: white;
+        }
+
+        .lButton:disabled{
+          background-color: #0071c28c;
+          cursor: not-allowed;
+        }
+    }
+}

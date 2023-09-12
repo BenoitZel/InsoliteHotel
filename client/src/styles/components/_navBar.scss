@@ -1,0 +1,82 @@
+.navbar{
+    height: 90px;
+    background: url('https://media.istockphoto.com/id/486035193/fr/photo/vue-de-dessus-dune-table-en-bois-marron-clair.jpg?s=612x612&w=0&k=20&c=6vh21g0PZEIiW55WCqVKShvJNjJgjhycf7OTWvC30RA=');
+
+    .navContainer{
+        width: 100%;
+        max-width: 1024px;
+        color: $color-4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+
+        .logo{
+            font-size: 3rem;
+            font-weight: 500;
+            color: $color-3;
+            margin-top: 3%;
+            -webkit-text-stroke: .5px $color-2;
+        }
+
+        .navItems{
+
+            .navButton{
+                margin-left: 20px;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+                color: $color-4;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 990px){
+    .navbar{
+        height: 170px;
+        
+        .navContainer{
+            display: block;
+            margin-top: 2%;
+            text-align: center;
+    
+            .logo{
+                display: block;
+            }
+    
+            .navItems{
+    
+                .navButton{
+                    display: block;
+                    margin: 4% auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 670px){
+    .navbar{
+        height: 100px;
+        
+        .navContainer{
+            display: block;
+            margin-top: 2%;
+            text-align: center;
+    
+            .logo{
+                display: block;
+            }
+    
+            .navItems{
+    
+                .navButton{
+                    display: block;
+                    margin: 4% auto;
+                }
+            }
+        }
+    }
+}

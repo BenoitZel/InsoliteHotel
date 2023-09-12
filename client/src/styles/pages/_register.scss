@@ -1,0 +1,48 @@
+.register {
+  background: url('https://www.grand-carcassonne-tourisme.fr/wp-content/uploads/wpetourisme/Cabanes-dans-les-bois---Villalier-11.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20% 38%;
+  text-align: center;
+
+  .logo {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: $color-3;
+    margin-top: 3%;
+    -webkit-text-stroke: .5px $color-2;
+  }
+
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .error {
+      background-color: rgba(0, 0, 0, 0.223);
+      text-align: center;
+      padding: 4px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .formInput {
+      width: 250px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .lButton {
+      border: none;
+      padding: 10px 20px;
+      background-color: $color-3;
+      color: $color-1;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  }
+}

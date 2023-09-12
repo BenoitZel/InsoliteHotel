@@ -1,0 +1,145 @@
+.reserve {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  // text-align: center;
+
+  .rContainer {
+    margin: 5% 20%;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+
+    .rClose {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+      cursor: pointer;
+    }
+
+    .rItem {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      padding: 20px;
+
+      .rInfo {
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .rTitle {
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+
+        .rDesc {
+          font-weight: 300;
+          width: 100%;
+
+        }
+
+        .rMax {
+          font-size: 12px;
+        }
+
+        .rPrice {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+
+      .rSelectRooms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 8px;
+        color: gray;
+
+        .room {
+          display: flex;
+          flex-direction: column;
+
+          .checkReserve {}
+        }
+      }
+    }
+
+    .rButton {
+      border: none;
+      padding: 10px 20px;
+      background-color: #0071c2;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width : 990px) {
+  .reserve {
+
+    .rContainer {
+      margin: 10%;
+    }
+  }
+}
+
+@media screen and (max-width : 670px) {
+  .reserve {
+
+    .rContainer {
+      margin: 5%;
+      height: 700px;
+      display: block;
+
+      .rClose {}
+
+      .rItem {
+
+        .rInfo {
+
+          .rTitle {
+            font-size: 1.2rem;
+          }
+
+          .rDesc {
+            width: 240px;
+            font-size: .7rem;
+          }
+
+          .rMax {
+            font-size: 12px;
+          }
+
+          .rPrice {
+            font-size: 1rem;
+          }
+        }
+
+        .rSelectRooms {
+
+
+          .room {
+
+            .checkReserve {}
+          }
+        }
+      }
+
+      .rButton {
+        margin-top: 0%;
+      }
+    }
+  }
+}

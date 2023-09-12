@@ -1,0 +1,20 @@
+
+  $color-1: black;
+  $color-2: #ffffff;
+  $color-3: #ffca2b;
+  $color-4: #7b3f1b;
+
+  $br: 10px;
+  
+  @mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
